@@ -1,5 +1,7 @@
 # firefox-tab-numbers
 
+![Firefox tab numbers](assets/tab-numbers-default-theme.png)
+
 Displays numeric labels for Firefox tabs **above and to the left of the favicon** in the native tab bar using `userChrome.css`.
 
 This is a **UI customization**, not a Firefox WebExtension. Firefox extensions cannot modify the native tab strip; this solution uses Firefox’s supported `userChrome.css` mechanism instead.
