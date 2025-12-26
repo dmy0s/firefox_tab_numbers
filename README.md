@@ -1,6 +1,6 @@
 # firefox-tab-numbers
 
-![Firefox tab numbers](assets/tab-numbers.png)
+![Firefox tab numbers](assets/tab_numbers.png)
 
 Displays numeric labels for Firefox tabs **above and to the left of the favicon** in the native tab bar using `userChrome.css`.
 
