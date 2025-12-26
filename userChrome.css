@@ -1,0 +1,36 @@
+#tabbrowser-tabs {
+  counter-reset: tab-counter;
+}
+
+.tabbrowser-tab {
+  counter-increment: tab-counter;
+}
+
+.tabbrowser-tab .tab-content::before {
+  content: counter(tab-counter);
+
+  position: absolute;
+  left: 0px;       
+  top: 2px;
+
+  padding: 0 5px;
+  border-radius: 6px;
+
+  color: #ffffff;     
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.2;
+
+  opacity: 0.9;
+  pointer-events: none; 
+}
+
+.tabbrowser-tab[pinned] .tab-content::before {
+  display: none !important;
+}
+
+.tabbrowser-tab:not(:first-child) {
+  border-left: 1px solid #0002 !important;
+}
+
